@@ -24,7 +24,7 @@ streamlit.dataframe(fruits_to_show)
 streamlit.header("Fruityvice Fruit Advice!") 
 
 # new section of api response
-fruit_choice = streamlit.text.input("What fruit would you like information about?", "wiki") 
+fruit_choice = streamlit.text.input("What fruit would you like information about?", "Kiwi") 
 streamlit.write("The user entered", Fruit_choice) 
 
 import requests
